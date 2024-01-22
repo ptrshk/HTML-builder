@@ -37,33 +37,3 @@ fs.readdir(
     }
   }
 )
-
-
-
-
-
-
-      // dirents.forEach(
-      //    (dirent) => {
-      //     if (dirent.type = 1 && dirent.name.split('.')[1] === 'css') {
-      //       fs.promises.readFile(
-      //         `05-merge-styles/styles/${dirent.name}`,
-      //         // (err, data) => {
-      //         //   if (err) {
-      //         //     console.log(err);
-      //         //   } else {
-      //         //     dataArr.push(data.toString());
-      //         //     console.log(dataArr.length);
-      //         //   }
-      //         // }
-      //       )
-      //       .then(data => {
-      //           dataArr.push(data.toString());
-      //           console.log(dataArr.length);
-      //         }
-      //       )
-      //     }
-      //   }
-      // )
-
-      
